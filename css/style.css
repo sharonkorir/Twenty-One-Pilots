@@ -1,5 +1,5 @@
 .sidebar {
-  width: fit-content;
+  width: 300px;
   float: left;
   color:whitesmoke;
   background-color: rgb(39, 48, 45);
@@ -12,15 +12,34 @@
 body{
   color:whitesmoke;
   background-color: rgb(26, 32, 30);
+  background-image: url(../images/backgroundimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header {
   text-align: center;
   font-size: 28px;
-  font-family: cursive;
+  background-color: ;
 }
 .head{
   text-align: center;
   margin: 40px;
   padding: 20px;
   font-size: 60px;
+  color: rgb(26, 32, 30);
+  background-color: rgb(136, 138, 135);
+}
+.column{
+  float: left;
+  width: 25%;
+  background-color: rgb(39, 48, 45);
+  padding: 20px;
+  margin: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  max-width: 450px;
+  height: auto;
+  padding: 10px;
 }
